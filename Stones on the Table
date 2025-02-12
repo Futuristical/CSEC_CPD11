@@ -1,0 +1,10 @@
+a=int(input())
+b=input()
+c="x"
+d=0
+for i in b:
+    if i==c:
+        d+=1  
+    else:
+        c=i
+print(d)
